@@ -1,0 +1,11 @@
+1、创建hello.c,使用内核空间文件头
+
+2、创建Makefile编译规则，注意使用大写M
+
+3、make编译，产生.ko后缀名的模块文件
+
+4、insmod装载模块: insmod hello.ko
+
+5、rmmod卸载模块: rmmod hell.ko
+
+6、dmesg:查看开机信息
